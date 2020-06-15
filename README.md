@@ -16,7 +16,7 @@ We will be using these three pagination variants to paginate three resources use
 ## Getting Started
 To get started, first clone the GitHub repository available at https://github.com/mcsimps2/enso_hiring_dashboard
 
-Please take care not to fork the repository since GitHub does not allow the creation of private forks for public repositories.  If you fork the repository, your solution will end up publicly available online, which would spoil the fun for other developers!  You may submit your solution to us as a .zip file or by adding us to your private repo.
+Please take care not to fork the repository since GitHub does not allow the creation of private forks for public repositories.  If you fork the repository, your solution will end up publicly available online, which would spoil the fun for other developers!  You may submit your solution to us as a .zip file or by adding us to your private repo.  If you choose the latter, add `mcsimps2` as a collaborater.
 
 Go ahead and start the React app you cloned earlier with `yarn install` followed by `yarn start`.  You should see the following page:
 ![Overview Screenshot](/docs/images/Overview%20Screenshot.png?raw=true)
