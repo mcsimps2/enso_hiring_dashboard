@@ -48,7 +48,7 @@ In addition to the aforementioned pagination requirements, please take into cons
 
  - **Asynchronous:** The pagination component should consume the API one page at a time.  That means when the user goes to a new page, this page should be fetched from the API.  The component should not try to load the entire database in with a single request and then partition this into pages.
  
- - **Lightweight:** The pagination component you design should be able to be used across different React codebases, meaning it should be as lightweight and decoupled as possible.  So while you could store pagination state in Redux, this is not recommended as it would make the component unusable in another codebase that relies on, say, MobX.
+ - **Lightweight:** The pagination component you design should be able to be used across different React codebases, meaning it should be lightweight and as decoupled as possible from large libraries.
  
  - **Re-usable:** The pagination component should be re-usable with a generalized interface, in the following sense:
 We should be able to quickly change the type of pagination on any one of the resources without having to modify large sections of code.  For example, if you paginated patients like
